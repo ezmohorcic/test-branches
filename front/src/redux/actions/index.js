@@ -6,14 +6,13 @@ import * as userActions from "./User.js";
 import * as consts from "../consts.js";
 // import * as Actions from "./.js";
 
-const Actions=
-{
-    ...homeActions,
-    ...landingPageActions,
-    ...messagesActions,
-    ...homeActions,
-    ...registerActions,
-    ...userActions
+const Actions = {
+  ...homeActions,
+  ...landingPageActions,
+  ...messagesActions,
+  ...homeActions,
+  ...registerActions,
+  ...userActions,
 };
 
 export default Actions;
